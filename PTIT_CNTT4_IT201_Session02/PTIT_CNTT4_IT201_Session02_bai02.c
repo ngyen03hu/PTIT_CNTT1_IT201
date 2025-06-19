@@ -30,7 +30,7 @@ int main () {
             count++;
         }
     }
-    printf("so phan tu khong hop le  : %d\n", count);
+    printf("so lan xuat hien   : %d\n", count);
 
     free(arr);
 
