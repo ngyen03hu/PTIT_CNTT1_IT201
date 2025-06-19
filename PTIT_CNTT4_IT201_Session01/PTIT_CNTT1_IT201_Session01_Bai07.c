@@ -12,7 +12,7 @@ int cotrunglap(int arr[] , int n) {
 }
 
 int main() {
-    int arr[10] = {1, 2, 3,1, 4, 5, 6, 7, 8, 22, 4, 4, 24, 557, 65, 9,9};
+    int arr[10] = {1, 2, 3,1, 4, 5, 6, 7, 8, 22, 4, 4, 24, 7, 65 , 9, 9};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // kiem tra
@@ -23,6 +23,5 @@ int main() {
     }
     return 0;
 }
-
 // so sanh tung phan tu voi cac phan tu phia sau co trung nhau khong
 // do phuc tap : 0(n^2)
